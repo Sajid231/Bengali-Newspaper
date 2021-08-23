@@ -1,0 +1,18 @@
+{% include 'header.html' %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href={% static 'css/news.css' %}>
+<div class="top-container text-center">
+    <br>
+    <button class="btn mainbutton" id="capture" value="true">
+        Speak
+    </button>
+
+    <p style="color:yellow">
+        <span>Status: </span>
+        <span id="status">Idle</span>
+        <br><br>
+    <h1 id="output" rows=10 placeholder="result" style="color: #ffffff"></h1>
+    </p>
+
+
+</div>
